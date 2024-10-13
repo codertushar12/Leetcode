@@ -5,6 +5,8 @@
  */
 
 // @lc code=start
+#define twoSum two_sum
+
 class Solution {
   public:
     /**
@@ -14,7 +16,7 @@ class Solution {
      * 
      * N = size of nums array
      */
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<int> two_sum(vector<int>& nums, int target) {
         int n = nums.size();
         int complement;
 
